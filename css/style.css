@@ -54,3 +54,364 @@ table {
 a {
 	text-decoration: none;
 }
+input {
+	border: none;
+}
+input:focus {
+	outline: none;
+}
+
+
+header {
+	margin: 0 auto;
+}
+nav {
+	display: flex;
+	align-items: center;
+}
+/*COMPONENTS*/
+
+.header-upper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid transparent;
+}
+.store-ul {
+	display: flex;
+}
+.counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	width: 13px;
+	height: 13px;
+	color: white;
+}
+.btn {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #F8F8F8;
+	padding: 16px 14px;
+}
+.line {
+	width: 20px;
+	height: 2px;
+	background-color: #000000;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+}
+.market-banner {
+	display: flex;
+	/*background-image: url(https://wallpaperaccess.com/full/638000.jpg);*/
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.mobiles-cov {
+	background-image: url(../img/mobiles.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.cost {
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF4F04;
+	padding: 10px 13px;
+	background-color: rgba(255,79,4,.3);
+}
+.swatch-offer {
+	display: flex;
+}
+.swatch-card {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+}
+.sale-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+.collection {
+	display: flex;
+}
+.boots-card {
+background-color: #F5F5F5;
+border-radius: 10px;
+padding: 0 20px 30px 20px;
+}
+.boots-card-large {
+background-color: #F5F5F5;
+border-radius: 10px;
+padding: 15px 15px 30px 15px;
+}
+
+/*TYPES*/
+
+.d-flx {
+	display: flex;
+}
+.d-in-flex {
+	display: inline-flex;
+}
+.flx-dir-col {
+	flex-direction: column;
+}
+.al-it-cnt {
+	align-items: center;
+}
+.jus-cont-sp-bet {
+	justify-content: space-between;
+}
+
+/*POSITIONS*/
+
+.p-absolute {
+	position: absolute;
+}
+.p-relative {
+	position: relative;
+}
+.t-17 {
+	top: 17px;
+}
+.r-0 {
+	right: 0;
+}
+.r-negative-3 {
+	right: -3px;
+}
+.t-negative-3 {
+	top: -3px;
+}
+.r-30 {
+	right: 30px;
+}
+
+/*SIZES (width,height,margin,padding)*/
+
+.w-100 {
+	width: 100%;
+}
+.w-50 {
+	width: 50%;
+}
+.w-25 {
+	width: 25%;
+}
+.mx-w-255 {
+	max-width: 255px;
+}
+.mx-w-528 {
+	max-width: 528px;
+}
+.mx-w-550px {
+	max-width: 550px;
+}
+.mx-w-1225 {
+	max-width: 1225px;
+}
+.min-w-200 {
+	min-width: 200px;
+}
+.margin-l_r-12 {
+	margin: 0 12px;
+}
+.margin_l-12 {
+	margin-left: 12px;
+}
+.margin_r-12 {
+	margin-right: 12px;
+}
+.margin_l-15 {
+	margin-left: 15px;
+}
+.margin_t-10 {
+	margin-top: 10px;
+}
+.margin_t-20 {
+	margin-top: 20px;
+}
+.margin_t-15 {
+	margin-top: 15px;
+}
+.margin_b-15 {
+	margin-bottom: 15px;
+}
+.margin_b_5 {
+	margin-bottom: 5px;
+}
+.margin_r-35 {
+	margin-right: 35px;
+}
+.margin_r-30 {
+	margin-right: 30px;
+}
+.margin_t-30 {
+	margin-top: 30px;
+}
+.margin_t-35 {
+	margin-top: 35px;
+}
+.margin-t-40 {
+	margin-top: 40px;
+}
+.margin_t-50 {
+	margin-top: 50px;
+}
+.margin_b-50 {
+	margin-bottom: 50px;
+}
+.margin_b-60 {
+	margin-bottom: 60px;
+}
+.margin_t-60 {
+	margin-top: 60px;
+}
+.margin_b-35 {
+	margin-bottom: 35px;
+}
+.margin_b-70 {
+	margin-bottom: 70px;
+}
+.margin_b-140 {
+	margin-bottom: 140px;
+}
+.margin_l-50 {
+	margin-left: 50px;
+}
+
+/*.margin_l-25 {
+	margin-left: 25px;
+}
+.margin_r-25 {
+	margin-right: 25px;
+}*/
+.margin_l_r-25 {
+	margin: 0 25px;
+}
+.margin_l-138 {
+	margin-left: 138px;
+}
+.margin_r-245 {
+	margin-right: 245px;
+}
+.margin_t_b-3px {
+	margin: 3px 0;
+}
+.padding_t-34px {
+	padding-top: 34px;
+}
+.padding_t-50 {
+	padding-top: 50px;
+}
+.padding_b-95 {
+	padding-bottom: 95px;
+}
+.padding_b-30px {
+	padding-bottom: 30px;
+}
+.padding_t-85 {
+	padding-top: 85px;
+}
+.padding_b-60 {
+	padding-bottom: 60px;
+}
+.padding_b-140 {
+	padding-bottom: 140px;
+}
+.padding_t-10 {
+	padding-top: 10px;
+}
+.padding_t-115 {
+	padding-top: 115px;
+}
+.padding_l-75 {
+	padding-left: 75px;
+}
+.padding_l-110 {
+	padding-left: 110px;
+}
+.padding_r-105 {
+	padding-right: 105px;
+}
+.p_full-25 {
+	padding: 25px;
+}
+/*COLORS*/
+.c-white {
+	color: white;
+}
+.bcg-c-white {
+	background-color: white;
+}
+.bcg-c-black {
+	background-color: black;
+}
+.bcg-c-none {
+	background-color: transparent;
+}
+.btn-border {
+	border: 1px solid #707070;
+}
+.border-c-w {
+	border-color: white;
+}
+.h-search-border-c {
+   border-color: #DFDFDF;
+}
+.counter-bcg-c {
+	background-color: #E81D1D;
+}
+.nav-a-c {
+	color: #302F2F;
+}
+.light-grey-border-btm {
+	border-bottom-color: #F0F0F0;
+}
+.btn-buy-bcg-c {
+	background-color: #FF4F04;
+}
+.market-cost-bcg-c {
+	background-color: rgba(248,248,248,.2);
+}
+.boots-card-large-b-c {
+	color: #7A7A7A;
+}
+.ftr-desc-color {
+	color: #302F2F;
+}
+.ftr-li-color {
+   color: #302F2F;
+}
+/*OTHERS*/
+
+.cursor-p {
+	cursor: pointer;
+}
+.line-hgt_25 {
+	line-height: 25px;
+}
+.line-hgt_50 {
+	line-height: 50px;
+}
+.line-hgt_70 {
+	line-height: 70px;
+}
+.border-radius-t {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
